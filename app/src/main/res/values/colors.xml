@@ -8,5 +8,5 @@
     <color name="botaoCancelar">#e64c2e</color>
     <color name="botaoSalvar">#40c621</color>
     <color name="botaoLimpar">#f9e427</color>
-    <color name="branco">#ffffff</color>
+    <color name="branco">#000</color>
 </resources>

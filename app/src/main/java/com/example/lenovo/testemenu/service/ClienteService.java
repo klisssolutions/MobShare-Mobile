@@ -63,7 +63,7 @@ public interface ClienteService {
     @GET("anuncios_mobile.php")
     Call<Veiculo>  buscarVeiculo(@Query("modo") String modo, @Query("id") int id);
 
-    @GET("anuncios_mobile.php")
+    @GET("locacao.php")
     Call<ApiResult>  inserirSolicitacao_Locacao(@Query("modo") String modo, @Query("idCliente") int idCliente,
                                               @Query("idVeiculo") int idVeiculo, @Query("txtHorarioInicio") String horarioInicio,
                                               @Query("txtHorarioFim") String horarioFim);
